@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "eu-north-1"  # Cambia según tu región
+  region = "eu-north-1"  
 }
 
 resource "aws_instance" "linux_server" {
