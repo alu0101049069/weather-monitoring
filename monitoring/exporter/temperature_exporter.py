@@ -7,7 +7,7 @@ temperature_gauge = Gauge('temperature_celsius', 'Current temperature in Santa C
 
 # Función para obtener la temperatura desde la API
 def get_temperature():
-    api_key = 'ab60180de2a359f2c47970581559444f'  # Reemplaza con tu API key
+    api_key = 'ab60180de2a359f2c47970581559444f'  
     city = 'Santa Cruz de Tenerife'
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     response = requests.get(url)
